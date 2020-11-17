@@ -1,0 +1,8 @@
+{
+	"name": "Wipple Project",
+	"context": "..",
+	"dockerFile": "../Dockerfile",
+	"settings": {
+		"terminal.integrated.shell.linux": null,
+	},
+}

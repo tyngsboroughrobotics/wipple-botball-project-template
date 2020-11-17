@@ -1,0 +1,6 @@
+-- set the version of the Wipple standard library to use in your project
+standard-library : 0.0.1-alpha-20201117a
+
+dependencies : [
+    -- my-package (github username/my-package 1.0.0)
+]
