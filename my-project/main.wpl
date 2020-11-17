@@ -1,1 +1,4 @@
-write! "Hello, world!"
+use botball
+
+-- TODO: Add create example
+choose-from (demobot)

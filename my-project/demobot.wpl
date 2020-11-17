@@ -1,0 +1,19 @@
+use botball
+
+left-wheel : motor [port 0]
+right-wheel : motor [port 1]
+wheels : wheels-with left-wheel right-wheel
+
+step "drive forward and backward" {
+    drive wheels forward 100 cm
+    drive wheels backward 50 cm
+}
+
+step "turn around" {
+    turn wheels right 180 degrees
+}
+
+step "go back to start" {
+    drive wheels forward 50 cm
+    turn wheels left 180 degrees
+}
